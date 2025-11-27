@@ -42,7 +42,7 @@ if st.button("CALCUTALE"):
         st.success(f"🎉 You got the 10% discount of RS.{discount:.2f}")
     else :
         final_discount = total
-        st.write(f"🤡 SORRY You just missed the discount")
+        st.write(f"SORRY You just missed the discount")
         st.success(f"YOUR TOTAL AMOUNT IS RS. {total}")
     if total > 500 :
         discount = total * 0.10
